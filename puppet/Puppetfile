@@ -1,0 +1,11 @@
+forge "https://forgeapi.puppetlabs.com"
+
+mod "gini/archive", "0.2.0"
+mod "gini/gradle", "0.2.0"
+mod "spantree/java8", "0.3.0"
+mod "spantree/upstart", "0.0.3"
+mod "puppetlabs/apt", "1.7.0"
+mod "puppetlabs/stdlib", "4.3.2"
+mod "yelp/netstdlib", "0.0.1"
+mod "spantree/mesos", :git => "https://github.com/Spantree/puppet-mesos.git"
+mod "garethr/docker", "3.3.2"

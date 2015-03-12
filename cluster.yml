@@ -1,0 +1,16 @@
+hostname_suffix : "mesos.vagrant"
+
+zk_n: 1
+zk_mem: 256
+zk_cpus: 1
+zk_ipbase: "172.41.0."
+
+mesos_n: 1
+mesos_mem: 1024
+mesos_cpus: 1
+mesos_ipbase: "172.41.5."
+
+slave_n: 2
+slave_mem: 4096
+slave_cpus: 2
+slave_ipbase: "172.41.6."
