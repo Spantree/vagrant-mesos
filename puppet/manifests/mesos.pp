@@ -9,6 +9,7 @@ node default {
   }
 
   class { 'mesos_spantree::marathon':
+    zookeeper_root => 'zk://zk1.mesos.vagrant:2181',
     require => Class['mesos::master']
   }
 }

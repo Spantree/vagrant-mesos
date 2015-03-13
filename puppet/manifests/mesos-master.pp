@@ -5,7 +5,7 @@ node default {
   }
 
   class { 'mesos_spantree::master':
-    zookeeper => 'zk://zk1.mesos.vagrant:2181/mesos',
+    zookeeper_root => 'zk://zk1.mesos.vagrant:2181',
   }
 
 }
